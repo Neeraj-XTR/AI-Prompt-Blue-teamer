@@ -1,4 +1,4 @@
-# AI-Prompt-Red-teamer
+# AI-Prompt-Blue-teamer
 Detect semantic similarity between an incoming prompt and known jailbreak / injection archetypes, even if: 
 1) Wording is changed
 2) Instructions are indirect

@@ -5,7 +5,8 @@ Detect semantic similarity between an incoming prompt and known jailbreak / inje
 3) Framed as stories / hypotheticals
 4) Obfuscated but semantically equivalent
 
-```REPO STRUCTURE:
+REPO STRUCTURE:
+```
 prompt-redteamer/
 │
 ├── detector/

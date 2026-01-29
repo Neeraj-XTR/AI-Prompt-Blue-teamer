@@ -26,9 +26,9 @@ def classify_prompt(prompt: str):
         score["jailbreak"] += 1
 
     # Final decision
-    if score["jailbreak"] >= 3:
+    if score["jailbreak"] >= 2:
         label = "jailbreak"
-    elif score["injection"] >= 2:
+    elif score["injection"] >= 1:
         label = "injection"
     else:
         label = "benign"
@@ -41,3 +41,4 @@ def classify_prompt(prompt: str):
         "scores": score,
         "findings": findings,
     }
+

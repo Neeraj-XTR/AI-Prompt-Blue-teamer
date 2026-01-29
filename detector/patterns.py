@@ -33,8 +33,17 @@ ENCODING_PATTERNS = [
     r"hex encoded",
 ]
 
+CRITICAL_JAILBREAK_PATTERNS = [
+    r"ignore (all|previous|above) instructions",
+    r"you are now (dan|do anything now)",
+    r"bypass (policy|rules|safeguards)",
+    r"no restrictions",
+    r"act as an? (unfiltered|uncensored|rogue)"
+]
+
 ALL_PATTERNS = {
     "jailbreak": JAILBREAK_PATTERNS,
     "injection": INJECTION_PATTERNS + ROLE_CONFUSION,
     "encoding": ENCODING_PATTERNS,
+    "criticlity": CRITICAL_JAILBREAK_PATTERNS,
 }
